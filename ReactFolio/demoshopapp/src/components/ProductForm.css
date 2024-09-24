@@ -1,0 +1,35 @@
+.new-product__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-product__controls label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.new-product__controls input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.new-product__controls button {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    background: linear-gradient(rgb(77, 53, 213), rgba(42, 248, 42, 0.701));
+    font-size: 1rem;
+    color: white;
+    font-weight: bolder;
+}
